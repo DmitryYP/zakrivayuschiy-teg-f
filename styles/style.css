@@ -179,7 +179,9 @@
   --bg-color: #000;
   content: "";
   position: absolute;
-  top: 0; left: 0; bottom: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
   width: 100%;
   background-color: var(--bg-color);
   transform-origin: left center;
@@ -205,6 +207,7 @@
   mix-blend-mode: difference;
   z-index: 1;
   color: var(--main-color);
+  line-height: 90%;
 }
 
 .card__like-button {
@@ -216,7 +219,6 @@
 
 .card__icon-button {
   background-color: transparent;
-  border: none;
   cursor: pointer;
   border: 2px solid transparent;
   transition: border-color 0.3s ease;
